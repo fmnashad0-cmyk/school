@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admission Form</title>
+        <style>
+            #f {
+                background-color: rgb(20, 206, 190);
+                animation: spin text;
+            }
+            @keyframes spin {
+                from {transform: rotate(0deg);}
+                to  {transform: rotate(360deg);}
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="f"><center>Admission Form</center></h1>
+        <form action="submit form.html" method="POST"><p><h3><center>Student Information</center></h3></p>
+            <center>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><p>(If female then no sit for Admission)</p><br>
+
+            <input type="radio" id="class 6" name="class" value="class">
+            <label for="class 6">class 6</label>
+            <input type="radio" id="class 7" name="class" value="class">
+            <label for="class 7">class 7</label>
+            <input type="radio" id="class 8" name="class" value="class">
+            <label for="class 8">class 8</label>
+            <input type="radio" id="class 9" name="class" value="class">
+            <label for="class 9">class 9</label>
+            <input type="radio" id="class 10" name="class" value="class">
+            <label for="class 10">class 10</label><br><br>
+            
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required><br>
+<br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required><br>
+
+             <p><h3><center>Submission Details:</center></h3></p>
+            <label for="date">Date of submission:</label>
+            <input type="date" name="date" id="date" required><br><br>
+
+            <label for="Time">Time of submission:</label>
+            <input type="time" name="time" id="time" required><br><br>
+            <input type="submit" value="submit"><br>
+           <marquee> <p id="f"><center id="f">Please fill form correctly...................Regards:: M SHOAIB Alie</p></marquee>
+           </center>
+         </center>
+        </form>
+        
+        
+    </body>
+</html>
